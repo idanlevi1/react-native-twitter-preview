@@ -1,12 +1,21 @@
 import * as React from 'react';
 
-import { StyleSheet, View } from 'react-native';
-import { TwitterPreviewView } from 'react-native-twitter-preview';
+import { StyleSheet, Text, View } from 'react-native';
+import TwitterPreview from 'react-native-twitter-preview';
+// import TwitterPreview from 'react-native-twitter-preview';
 
 export default function App() {
+  React.useEffect(() => {
+    console.log('react-native-twitter-preview Example 🚀');
+  });
+
   return (
     <View style={styles.container}>
-      <TwitterPreviewView color="#32a852" style={styles.box} />
+      <Text style={styles.text}>react-native-twitter-preview example 🚀</Text>
+      <TwitterPreview
+        url={'https://twitter.com/elonmusk/status/1636162726140493825'}
+        backgroundColor={'#EEE'}
+      />
     </View>
   );
 }
@@ -14,12 +23,15 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: '#EEE',
+    paddingVertical: '15%',
     alignItems: 'center',
     justifyContent: 'center',
   },
-  box: {
-    width: 60,
-    height: 60,
-    marginVertical: 20,
+  text: {
+    fontSize: 18,
+    color: '#1DA1F2',
+    marginBottom: 20,
+    fontWeight: 'bold',
   },
 });
