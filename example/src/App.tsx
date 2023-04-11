@@ -11,10 +11,10 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>react-native-twitter-preview example 🚀</Text>
+      <Text style={styles.text}>react-native-twitter-preview 🚀</Text>
       <TwitterPreview
         url={'https://twitter.com/elonmusk/status/1636162726140493825'}
-        backgroundColor={'#EEE'}
+        backgroundColor={'#272A35'}
       />
     </View>
   );
@@ -23,7 +23,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#EEE',
+    backgroundColor: '#272A35',
     paddingVertical: '15%',
     alignItems: 'center',
     justifyContent: 'center',

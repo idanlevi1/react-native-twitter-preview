@@ -44,7 +44,12 @@ const TwitterTweet = (props: TwitterTweetProps) => {
   const renderLoading = () => {
     if (loading) {
       return (
-        <View style={styles.loadingWrap}>
+        <View
+          style={[
+            styles.loadingWrap,
+            { backgroundColor: props.backgroundColor || '#fff' },
+          ]}
+        >
           <ActivityIndicator size="large" color="#1DA1F2" />
         </View>
       );
@@ -126,7 +131,6 @@ const styles = StyleSheet.create({
   },
   loadingWrap: {
     flex: 1,
-    backgroundColor: '#fff',
     justifyContent: 'center',
     alignItems: 'center',
   },
