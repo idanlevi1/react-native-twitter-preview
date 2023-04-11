@@ -1,9 +1,10 @@
-# react-native-twitter-preview
-
-React Native library for previewing embedded Twitter tweets using their URL. The library provides a customizable preview of a tweet's author, text, and media content, allowing developers to match the preview's appearance to their app's design.
 [![GitHub license](https://img.shields.io/github/license/gmsgowtham/react-native-twitter-preview)](https://github.com/gmsgowtham/react-native-twitter-preview/blob/main/LICENSE)
 [![npm](https://img.shields.io/npm/v/react-native-twitter-preview)](https://www.npmjs.com/package/react-native-twitter-preview)
 [![npm](https://img.shields.io/npm/dw/react-native-twitter-preview)](https://www.npmjs.com/package/react-native-twitter-preview)
+# react-native-twitter-preview
+
+React Native library for previewing embedded Twitter tweets using their URL. The library provides a customizable preview of a tweet's author, text, and media content, allowing developers to match the preview's appearance to their app's design.
+
 
 ## Installation
 
@@ -24,8 +25,8 @@ import { TwitterPreviewView } from 'react-native-twitter-preview';
 />;
 ```
 
-<h1 align="center">
- <img height='220' src="./example/assets/screenshot.png" /><br/>
+<h1>
+ <img height='500' src="./example/assets/screenshot.png" /><br/>
 </h1>
 
 ### Props
@@ -35,7 +36,7 @@ import { TwitterPreviewView } from 'react-native-twitter-preview';
 | url             | Tweet url                         | string         | V                              |                                |
 | style           | Tweet container style             | object (style) |                                |                                |
 | backgroundColor | Background color behind the tweet | string         |                                | '#FFF'                         |
-| onPressTweet    | Called when a tweet is pressed    | Function       | Opens the tweet in the browser | Opens the tweet in the browser |
+| onPressTweet    | Called when a tweet is pressed    | Function       |                                | Opens the tweet in the browser |
 
 ## Contributing
 
