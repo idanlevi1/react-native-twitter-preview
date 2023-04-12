@@ -1,6 +1,7 @@
-[![GitHub license](https://img.shields.io/github/license/gmsgowtham/react-native-twitter-preview)](https://github.com/gmsgowtham/react-native-twitter-preview/blob/main/LICENSE)
-[![npm](https://img.shields.io/npm/v/react-native-twitter-preview)](https://www.npmjs.com/package/react-native-twitter-preview)
-[![npm](https://img.shields.io/npm/dw/react-native-twitter-preview)](https://www.npmjs.com/package/react-native-twitter-preview)
+[![npm version](https://img.shields.io/npm/v/react-native-twitter-preview.svg)](https://www.npmjs.com/package/react-native-twitter-preview)
+[![npm downloads](https://img.shields.io/npm/dm/react-native-twitter-preview.svg)](https://www.npmjs.com/package/react-native-twitter-preview) 
+[![npm license](https://img.shields.io/npm/l/react-native-twitter-preview.svg)](https://www.npmjs.com/package/react-native-twitter-preview) 
+
 # react-native-twitter-preview
 
 React Native library for previewing embedded Twitter tweets using their URL. The library provides a customizable preview of a tweet's author, text, and media content, allowing developers to match the preview's appearance to their app's design.
