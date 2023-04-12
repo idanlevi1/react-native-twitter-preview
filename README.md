@@ -49,8 +49,6 @@ MIT
 
 ---
 
-Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)
-
 ## Author
 
 Made by [Idanlevi1](https://github.com/idanlevi1)
