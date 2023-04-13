@@ -329,7 +329,7 @@ PODS:
   - React-jsinspector (0.71.6)
   - React-logger (0.71.6):
     - glog
-  - react-native-twitter-preview (1.2.0):
+  - react-native-twitter-preview (1.3.0):
     - React-Core
   - react-native-webview (12.0.2):
     - React-Core
@@ -611,7 +611,7 @@ SPEC CHECKSUMS:
   React-jsiexecutor: 7894956638ff3e00819dd3f9f6f4a84da38f2409
   React-jsinspector: d5ce2ef3eb8fd30c28389d0bc577918c70821bd6
   React-logger: 9332c3e7b4ef007a0211c0a9868253aac3e1da82
-  react-native-twitter-preview: 812eb5f29376dce861a8909c1a57ffd3247997e4
+  react-native-twitter-preview: 4493de6ceb9cc9903520d958b8b92029c0c46230
   react-native-webview: 203b6a1c7507737f777c91d7e10c30e7e67c1a17
   React-perflogger: 43392072a5b867a504e2b4857606f8fc5a403d7f
   React-RCTActionSheet: c7b67c125bebeda9fb19fc7b200d85cb9d6899c4
