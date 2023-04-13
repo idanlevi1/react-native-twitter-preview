@@ -1,6 +1,6 @@
 {
   "name": "react-native-twitter-preview",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "test",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -157,5 +157,8 @@
         }
       ]
     ]
+  },
+  "dependencies": {
+    "react-native-webview": "^12.0.2"
   }
 }
