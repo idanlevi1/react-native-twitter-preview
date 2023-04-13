@@ -12,6 +12,10 @@ React Native library for previewing embedded Twitter tweets using their URL. The
 ```sh
 npm install react-native-twitter-preview
 ```
+or 
+```sh
+yarn add react-native-twitter-preview
+```
 
 ## Usage
 
@@ -23,7 +27,7 @@ import { TwitterPreviewView } from 'react-native-twitter-preview';
 <TwitterPreview
   url={'https://twitter.com/elonmusk/status/1636162726140493825'}
   backgroundColor={'#272A35'}
-/>;
+/>
 ```
 
 <h1>
