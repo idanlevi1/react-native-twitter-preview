@@ -31,14 +31,17 @@ const TwitterTweet = (props: TwitterTweetProps) => {
     let tweetUrl = TWITTER_BASE_EMBED_URL + encodeURIComponent(props.url || '');
     fetch(tweetUrl, {
       method: 'GET',
-      headers: { Accepts: 'application/json' },
-    }).then((resp) => {
-      resp.json().then((json) => {
-        let html = json.html;
+      headers: { Accept: 'application/json' },
+    })
+      .then((resp) => resp.json())
+      .then((json) => {
         setLoading(false);
-        setEmbedHtml(html);
+        setEmbedHtml(json.html);
+      })
+      .catch((err) => {
+        console.error('Failed to fetch tweet embed:', err);
+        setLoading(false);
       });
-    });
   };
 
   const renderLoading = () => {
@@ -95,7 +98,7 @@ const TwitterTweet = (props: TwitterTweetProps) => {
           }
           activeOpacity={0.95}
         >
-          <View style={styles.webview} pointerEvents="none">
+          <View style={styles.webview} pointerEvents="auto">
             <WebView
               source={{ html: html }}
               onMessage={onWebViewMessage}
