@@ -4,7 +4,7 @@
 
 # react-native-twitter-preview
 
-React Native library for previewing embedded Twitter tweets using their URL. The library provides a customizable preview of a tweet's author, text, and media content, allowing developers to match the preview's appearance to their app's design.
+React Native library for previewing embedded Twitter/X tweets using their URL. The library provides a customizable preview of a tweet's author, text, and media content, allowing developers to match the preview's appearance to their app's design.
 
 ## Installation
 
@@ -55,6 +55,14 @@ import { TwitterPreviewView } from 'react-native-twitter-preview';
 | style           | Tweet container style             | object (style) |           |                                |
 | backgroundColor | Background color behind the tweet | string         |           | '#FFF'                         |
 | onPressTweet    | Called when a tweet is pressed    | Function       |           | Opens the tweet in the browser |
+
+## Changelog
+
+### 1.0.3
+
+- Fixed oembed API fetch header (`Accepts` → `Accept`) that caused tweet loading to fail
+- Added error handling for failed oembed requests
+- Fixed video playback — changed `pointerEvents` from `none` to `auto` so embedded videos and interactive content work properly
 
 ## Contributing
 
